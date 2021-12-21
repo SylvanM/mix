@@ -7,7 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE1B56842772677A008654AE /* MIX+Instructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1B56832772677A008654AE /* MIX+Instructions.swift */; };
+		AE77FEA627701C2B00F3AB7F /* InputDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE77FEA527701C2A00F3AB7F /* InputDevice.swift */; };
+		AE77FEAF27705FB400F3AB7F /* mix_unit_tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE77FEAE27705FB400F3AB7F /* mix_unit_tests.swift */; };
+		AE77FEB52770F50200F3AB7F /* mix.c in Sources */ = {isa = PBXBuildFile; fileRef = AEF29330276FAE3D001BAC7B /* mix.c */; };
+		AE77FEB62770F53B00F3AB7F /* MIX.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF29328276EEA2F001BAC7B /* MIX.swift */; };
+		AE77FEB72770F55000F3AB7F /* mix-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = AEF2932A276EEC37001BAC7B /* mix-Bridging-Header.h */; };
+		AE77FEB82770F55200F3AB7F /* mix.h in Sources */ = {isa = PBXBuildFile; fileRef = AEF2932F276FAE3D001BAC7B /* mix.h */; };
+		AE77FEB92770F55600F3AB7F /* InputDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE77FEA527701C2A00F3AB7F /* InputDevice.swift */; };
+		AE77FEBE2770F90F00F3AB7F /* ClosedRange+Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE77FEBD2770F90F00F3AB7F /* ClosedRange+Count.swift */; };
+		AE77FEC02771416900F3AB7F /* MIX+Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE77FEBF2771416900F3AB7F /* MIX+Description.swift */; };
 		AEF29322276EE9D0001BAC7B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF29321276EE9D0001BAC7B /* main.swift */; };
+		AEF29329276EEA2F001BAC7B /* MIX.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF29328276EEA2F001BAC7B /* MIX.swift */; };
+		AEF29331276FAE3D001BAC7B /* mix.c in Sources */ = {isa = PBXBuildFile; fileRef = AEF29330276FAE3D001BAC7B /* mix.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,11 +35,29 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AE1B56832772677A008654AE /* MIX+Instructions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MIX+Instructions.swift"; sourceTree = "<group>"; };
+		AE77FEA527701C2A00F3AB7F /* InputDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputDevice.swift; sourceTree = "<group>"; };
+		AE77FEAC27705FB400F3AB7F /* mix_unit_tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mix_unit_tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE77FEAE27705FB400F3AB7F /* mix_unit_tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mix_unit_tests.swift; sourceTree = "<group>"; };
+		AE77FEB027705FB400F3AB7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE77FEBD2770F90F00F3AB7F /* ClosedRange+Count.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ClosedRange+Count.swift"; sourceTree = "<group>"; };
+		AE77FEBF2771416900F3AB7F /* MIX+Description.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MIX+Description.swift"; sourceTree = "<group>"; };
 		AEF2931E276EE9D0001BAC7B /* mix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mix; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF29321276EE9D0001BAC7B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AEF29328276EEA2F001BAC7B /* MIX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIX.swift; sourceTree = "<group>"; };
+		AEF2932A276EEC37001BAC7B /* mix-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mix-Bridging-Header.h"; sourceTree = "<group>"; };
+		AEF2932F276FAE3D001BAC7B /* mix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mix.h; sourceTree = "<group>"; };
+		AEF29330276FAE3D001BAC7B /* mix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mix.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AE77FEA927705FB400F3AB7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AEF2931B276EE9D0001BAC7B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -38,10 +68,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE4455DC276FD93400B1965F /* IO Devices */ = {
+			isa = PBXGroup;
+			children = (
+				AE77FEA527701C2A00F3AB7F /* InputDevice.swift */,
+			);
+			path = "IO Devices";
+			sourceTree = "<group>";
+		};
+		AE77FEAD27705FB400F3AB7F /* mix_unit_tests */ = {
+			isa = PBXGroup;
+			children = (
+				AE77FEAE27705FB400F3AB7F /* mix_unit_tests.swift */,
+				AE77FEB027705FB400F3AB7F /* Info.plist */,
+			);
+			path = mix_unit_tests;
+			sourceTree = "<group>";
+		};
+		AE77FEBA2770F87300F3AB7F /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				AE77FEBD2770F90F00F3AB7F /* ClosedRange+Count.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		AEF29315276EE9D0001BAC7B = {
 			isa = PBXGroup;
 			children = (
 				AEF29320276EE9D0001BAC7B /* mix */,
+				AE77FEAD27705FB400F3AB7F /* mix_unit_tests */,
 				AEF2931F276EE9D0001BAC7B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				AEF2931E276EE9D0001BAC7B /* mix */,
+				AE77FEAC27705FB400F3AB7F /* mix_unit_tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,14 +114,47 @@
 		AEF29320276EE9D0001BAC7B /* mix */ = {
 			isa = PBXGroup;
 			children = (
+				AE77FEBA2770F87300F3AB7F /* Utility */,
+				AEF2932A276EEC37001BAC7B /* mix-Bridging-Header.h */,
+				AEF2932E276FAE2A001BAC7B /* MIX */,
 				AEF29321276EE9D0001BAC7B /* main.swift */,
 			);
 			path = mix;
 			sourceTree = "<group>";
 		};
+		AEF2932E276FAE2A001BAC7B /* MIX */ = {
+			isa = PBXGroup;
+			children = (
+				AEF29328276EEA2F001BAC7B /* MIX.swift */,
+				AE77FEBF2771416900F3AB7F /* MIX+Description.swift */,
+				AE1B56832772677A008654AE /* MIX+Instructions.swift */,
+				AE4455DC276FD93400B1965F /* IO Devices */,
+				AEF2932F276FAE3D001BAC7B /* mix.h */,
+				AEF29330276FAE3D001BAC7B /* mix.c */,
+			);
+			path = MIX;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		AE77FEAB27705FB400F3AB7F /* mix_unit_tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE77FEB127705FB400F3AB7F /* Build configuration list for PBXNativeTarget "mix_unit_tests" */;
+			buildPhases = (
+				AE77FEA827705FB400F3AB7F /* Sources */,
+				AE77FEA927705FB400F3AB7F /* Frameworks */,
+				AE77FEAA27705FB400F3AB7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mix_unit_tests;
+			productName = mix_unit_tests;
+			productReference = AE77FEAC27705FB400F3AB7F /* mix_unit_tests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		AEF2931D276EE9D0001BAC7B /* mix */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEF29325276EE9D0001BAC7B /* Build configuration list for PBXNativeTarget "mix" */;
@@ -91,8 +181,12 @@
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					AE77FEAB27705FB400F3AB7F = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
 					AEF2931D276EE9D0001BAC7B = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -110,22 +204,90 @@
 			projectRoot = "";
 			targets = (
 				AEF2931D276EE9D0001BAC7B /* mix */,
+				AE77FEAB27705FB400F3AB7F /* mix_unit_tests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		AE77FEAA27705FB400F3AB7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		AE77FEA827705FB400F3AB7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE77FEB92770F55600F3AB7F /* InputDevice.swift in Sources */,
+				AE77FEB82770F55200F3AB7F /* mix.h in Sources */,
+				AE77FEB72770F55000F3AB7F /* mix-Bridging-Header.h in Sources */,
+				AE77FEB62770F53B00F3AB7F /* MIX.swift in Sources */,
+				AE77FEB52770F50200F3AB7F /* mix.c in Sources */,
+				AE77FEAF27705FB400F3AB7F /* mix_unit_tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AEF2931A276EE9D0001BAC7B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE77FEA627701C2B00F3AB7F /* InputDevice.swift in Sources */,
+				AE77FEBE2770F90F00F3AB7F /* ClosedRange+Count.swift in Sources */,
+				AEF29331276FAE3D001BAC7B /* mix.c in Sources */,
+				AE1B56842772677A008654AE /* MIX+Instructions.swift in Sources */,
+				AEF29329276EEA2F001BAC7B /* MIX.swift in Sources */,
 				AEF29322276EE9D0001BAC7B /* main.swift in Sources */,
+				AE77FEC02771416900F3AB7F /* MIX+Description.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		AE77FEB227705FB400F3AB7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JDSTZ7K2MV;
+				INFOPLIST_FILE = mix_unit_tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "martin.mix-unit-tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "mix/mix-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AE77FEB327705FB400F3AB7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JDSTZ7K2MV;
+				INFOPLIST_FILE = mix_unit_tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "martin.mix-unit-tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "mix/mix-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		AEF29323276EE9D0001BAC7B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -244,10 +406,19 @@
 		AEF29326276EE9D0001BAC7B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JDSTZ7K2MV;
 				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = "mix/MIX/**";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "mix/mix-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -255,10 +426,18 @@
 		AEF29327276EE9D0001BAC7B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JDSTZ7K2MV;
 				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = "mix/MIX/**";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "mix/mix-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -266,6 +445,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AE77FEB127705FB400F3AB7F /* Build configuration list for PBXNativeTarget "mix_unit_tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE77FEB227705FB400F3AB7F /* Debug */,
+				AE77FEB327705FB400F3AB7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AEF29319276EE9D0001BAC7B /* Build configuration list for PBXProject "mix" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
